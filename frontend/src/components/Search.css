@@ -1,0 +1,179 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f977;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.header {
+    width: 100%;
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    margin-top: 60px;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: rgb(80, 33, 33);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-bar button:hover {
+    background-color: #432154;
+}
+
+.dropdown-button {
+    padding: 10px;
+    background-color: rgb(80, 33, 33);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.dropdown-button:hover {
+    background-color: #432154;
+}
+
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+.dropdown-menu div {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: black;
+}
+
+.dropdown-menu div.selected {
+    background-color: rgb(80, 33, 33);
+    color: #fff;
+}
+
+.dropdown-menu div:hover {
+    background-color: #ccc;
+}
+
+.mood-filters {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.mood-button {
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.mood-button.selected {
+    background-color: rgb(80, 33, 33);
+    color: #fff;
+}
+
+.mood-button:hover {
+    color: #fff;
+}
+
+.results {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.song {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    background-color: #5f3b54;
+    flex-direction: column;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.song-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: #141414;
+}
+
+.artist {
+    margin: 0;
+    font-size: 0.9em;
+    color: #141414;
+}
+
+.song:hover {
+    background-color: #6f3c73;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-home {
+    padding: 10px 20px;
+    background-color: rgb(80, 33, 33);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-to-home:hover {
+    background-color: #432154;
+}

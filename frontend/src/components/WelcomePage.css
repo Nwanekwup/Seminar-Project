@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(to right, #7b4397, #dc2430); 
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.welcome-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.welcome-header p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: purple;
+  border-radius: 9px;
+  margin: 0 auto 20px auto;
+}
+
+.welcome-main {
+  margin-bottom: 40px;
+}
+
+.welcome-login, .welcome-signup {
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.welcome-login {
+  background-color: #7b4397; 
+  color: white;
+  margin-right: 10px;
+}
+
+.welcome-login:hover {
+  background-color: #6a2a88; 
+}
+
+.welcome-signup {
+  background-color: #a2293f; 
+  color: white;
+  margin-left: 10px;
+}
+
+.welcome-signup:hover {
+  background-color: #c21b28; 
+}
+
+.welcome-footer {
+  font-size: 0.9em;
+  opacity: 0.8;
+}

@@ -1,0 +1,76 @@
+.playlist-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.song-list {
+    list-style: none;
+    padding: 0;
+    color: #555;
+    max-height: 400px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.song-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-details {
+    flex-grow: 1;
+}
+
+.spotify-link {
+    background-color: #1db954;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.spotify-link:hover {
+    background-color: #1ed760;
+}
+
+.artist-name {
+    color: #555;
+    margin-top: 5px;
+}
+
+.back-to-home {
+    padding: 10px 20px;
+    background-color: rgb(80, 33, 33);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-to-home:hover {
+    background-color: #432154;
+}
